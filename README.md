@@ -1,6 +1,6 @@
 # Bubbler - A fake social media clone of Twitter
 
-LIVE VERSION: https://bubbler-671eb.web.app/
+**LIVE VERSION**: https://bubbler-671eb.web.app/
 
 A much simpler but working version of a twitter clone. You can make posts (bubbles), like other people's posts and comment on them.
 

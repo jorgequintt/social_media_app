@@ -15,7 +15,7 @@ A much simpler but working version of a twitter clone. You can make posts (bubbl
       - **Busboy**: For handling and saving image profiles sent by the user.
       - **Sharp**: For cropping, centering and resizing of profile pictures.
       - **Express**: API Routes
-      - **Jest**: Automatic testing of endpoints
+      - **Jest**: Automatic endpoint testing
 ### **Client Side**
   - **React**
   - **Redux**

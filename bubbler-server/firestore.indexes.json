@@ -1,0 +1,61 @@
+{
+   "indexes": [
+      {
+         "collectionGroup": "bubbles",
+         "queryScope": "COLLECTION",
+         "fields": [
+            {
+               "fieldPath": "userName",
+               "order": "ASCENDING"
+            },
+            {
+               "fieldPath": "createdAt",
+               "order": "DESCENDING"
+            }
+         ]
+      },
+      {
+         "collectionGroup": "comments",
+         "queryScope": "COLLECTION",
+         "fields": [
+            {
+               "fieldPath": "bubbleId",
+               "order": "ASCENDING"
+            },
+            {
+               "fieldPath": "createdAt",
+               "order": "DESCENDING"
+            }
+         ]
+      },
+      {
+         "collectionGroup": "notifications",
+         "queryScope": "COLLECTION",
+         "fields": [
+            {
+               "fieldPath": "recipient",
+               "order": "ASCENDING"
+            },
+            {
+               "fieldPath": "createdAt",
+               "order": "DESCENDING"
+            }
+         ]
+      },
+      {
+         "collectionGroup": "notifications",
+         "queryScope": "COLLECTION",
+         "fields": [
+            {
+               "fieldPath": "userName",
+               "order": "ASCENDING"
+            },
+            {
+               "fieldPath": "createdAt",
+               "order": "DESCENDING"
+            }
+         ]
+      }
+   ],
+   "fieldOverrides": []
+}
